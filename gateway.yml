@@ -2,6 +2,11 @@ server:
   port: 8989
 
 spring:
+  rabbitmq:
+    host: 154.8.233.81
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     consul:
       port: 8500
